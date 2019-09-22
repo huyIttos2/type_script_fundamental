@@ -8,47 +8,46 @@ import "./scss/styles.scss";
 /**
  * var vs let/const
  */
-/*
-function main() {
-  console.log("START");
-  if (true) {
-    var lang = "vi";
-    let target = "en-us";
-    console.log("inside block");
-    console.log(target);
-  }
-  console.log(lang);
-  console.log(target);
-}
- */
-/*
-function main() {
-  var x = 5;
-  console.log(x);
-  var x = 10;
-  console.log(x);
 
-  let y = 55;
-  console.log(y);
-  let y = 100;
-  console.log(y);
-}
-*/
+// function main() {
+//   console.log("START");
+//   if (true) {
+//     var lang = "vi";
+//     var target = "en-us";
+//     console.log("inside block");
+//     console.log(target);
+//   }
+//   console.log(lang);
+//   console.log(target);
+// }
 
-/*
-function main() {
-  console.log(x);
-  var x = 5;
 
-  console.log(y);
-  let y = 10;
-}
- */
+// function main() {
+//   var x = 5;
+//   console.log(x);
+//   var x = 10;
+//   console.log(x);
+
+//   var y = 55;
+//   console.log(y);
+//   var y = 100;
+//   console.log(y);
+// }
+
+
+// function main() {
+//   console.log(x);
+//   var x = 5;
+
+//   console.log(y);
+//   var y = 10;
+// }
+
 
 /**
  * Data types
  */
-/*
+
 function main() {
   let message: string;
   let total: number = 100;
@@ -80,9 +79,10 @@ function main() {
   unknown = 'changed';
 
   const post: IPost = {
-
+      id : "number one",
+      title: "bai toan 1",
   };
-  message = 50;
+  message = "Dap an will be here";
 
   function getPost(postId: string): IPost {
     // do something to retrieve post
@@ -94,9 +94,9 @@ function main() {
     } as IPost;
   }
 }
- */
 
-function main() {}
+
+// function main() {}
 
 // tslint:enable
 
